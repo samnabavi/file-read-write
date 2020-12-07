@@ -59,9 +59,9 @@ public class ReadWriteAppendFile {
 				System.out.println("-------------------------");
 
 			} catch (FileNotFoundException e) {
-
+                System.out.println("Error happend");
 			} catch (IOException e) {
-
+                System.out.println("Error happend");
 			}
 
 		}
